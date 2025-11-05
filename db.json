@@ -1,0 +1,93 @@
+{
+  "projects": [
+    {
+      "id": "46fa",
+      "name": "projeto força",
+      "budget": "70000",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "cost": 20002,
+      "services": [
+        {
+          "name": "AWS",
+          "cost": "2",
+          "description": "servidor ",
+          "id": "676ad79b-4bbd-4f7d-a9c4-8b32e3e206cb"
+        },
+        {
+          "name": "contratar staff",
+          "cost": "20000",
+          "description": "staff para ajudar nas atividades externas",
+          "id": "887ab771-bcc6-40d7-8cee-329676435239"
+        }
+      ]
+    },
+    {
+      "id": "1fe3",
+      "name": "projeto tech",
+      "budget": "5000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 2005,
+      "services": [
+        {
+          "name": "AWS",
+          "cost": "1000",
+          "description": "servidor ",
+          "id": "a87a0439-27ca-4b8b-ae93-7aa87ff208d7"
+        },
+        {
+          "name": "AWS",
+          "cost": "1002",
+          "description": "servidores",
+          "id": "c2b5020c-dda9-4f2a-b426-506de5896d4c"
+        },
+        {
+          "name": "AWS",
+          "cost": "1",
+          "description": "servidor ",
+          "id": "7855da6f-b0ac-4ef7-83f3-8bd6dda63075"
+        },
+        {
+          "name": "AWS",
+          "cost": "2",
+          "description": "servidor ",
+          "id": "60eb5d61-24dc-4fed-a0e0-4a43c078c898"
+        }
+      ]
+    },
+    {
+      "id": "597f",
+      "name": "projeto churras",
+      "budget": "1000000",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "cost": 0,
+      "services": []
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Infra"
+    },
+    {
+      "id": "2",
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": "3",
+      "name": "Design"
+    },
+    {
+      "id": "4",
+      "name": "Planejamento"
+    }
+  ]
+}
