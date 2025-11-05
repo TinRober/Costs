@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+# Costs
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Aplicação web completa de **gerenciamento de projetos e serviços** desenvolvida com **React**, **JavaScript** e **JSON Server** para simulação de backend.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## ⚙️ Funcionalidades Principais
 
-### `npm start`
+### 📝 Cadastro de Projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* Campos obrigatórios: **nome**, **orçamento total**
+* Seleção de **categoria** a partir de uma lista
+* Validação de orçamento e campos obrigatórios
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 🛠️ Gerenciamento de Serviços
 
-### `npm test`
+* Adição de serviços vinculados a projetos
+* Cada serviço possui **nome**, **custo** e **descrição**
+* Validação para não ultrapassar o orçamento do projeto
+* Listagem de serviços adicionados
+* Remoção de serviços
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🔐 Mensagens e Feedback
 
-### `npm run build`
+* Mensagens de sucesso e erro para operações de cadastro, edição e adição de serviços
+* Feedbacks temporizados desaparecendo automaticamente após 3 segundos
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🧰 Tecnologias Utilizadas
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* **React 18**
+* **React Router DOM** (para navegação)
+* **UUID** (geração de IDs únicos para serviços)
+* **CSS Modules** (estilização modular)
+* **JSON Server** (simulação de backend REST)
+* **React Icons** (ícones)
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🧩 Requisitos
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Node.js 18+
+* npm ou yarn
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🚀 Instalação e Execução
 
-## Learn More
+1️⃣ **Clonar o repositório**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+git clone https://github.com/SeuUsuario/costs.git
+cd Costs
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2️⃣ **Instalar dependências**
 
-### Code Splitting
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+3️⃣ **Iniciar JSON Server** (simulação de backend)
 
-### Analyzing the Bundle Size
+```bash
+npx json-server --watch db.json --port 5000
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+4️⃣ **Rodar a aplicação**
 
-### Making a Progressive Web App
+```bash
+npm start
+npm run backend
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Acesse em: [http://localhost:3000](http://localhost:3000)
+e o BackEnd: [http://localhost:5000](http://localhost:5000)
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🧠 Destaques Técnicos
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* Boas práticas de **gerenciamento de estado e componentes React**
+* **Modularidade** e organização de componentes
+* Validação de formulário e mensagens de erro/sucesso
+* **Controle de orçamento de projetos**
+* **Gerenciamento de serviços vinculados a projetos**
